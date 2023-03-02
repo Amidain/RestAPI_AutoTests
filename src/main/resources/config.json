@@ -1,0 +1,13 @@
+{
+  "auth_URL": "http://%s:%s@localhost:8081/web",
+  "base_URL": "http://localhost:8081/api",
+  "credentials": {
+    "username" : "login",
+    "password" : "password"
+  },
+  "task_variant" : "2",
+  "project_ids" : {
+    "nexage" : "1"
+  },
+  "current_project_name" : "RestAPI_Test"
+}

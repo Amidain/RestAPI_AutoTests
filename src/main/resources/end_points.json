@@ -1,0 +1,8 @@
+{
+  "get_token": "/token/get",
+  "get_tests_list": "/test/get/json",
+  "put_test": "/test/put",
+  "put_test_log": "/test/put/log",
+  "put_test_attachment" : "/test/put/attachment",
+  "update_test" : "/test/update"
+}
