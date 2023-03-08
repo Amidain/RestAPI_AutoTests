@@ -62,7 +62,6 @@ public class WebApiTest extends BaseTest{
         String projectName = CONFIG_READER.getValue("/current_project_name").toString();
         Assert.assertTrue(mainPage.isProjectDisplayed(projectName), "Project has not been added to the list, hence it is not visible!");
         mainPage.openProject(projectName);
-
         String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
         String className =  this.getClass().getSimpleName();
         Response addProjectRs = ApiRequests.addTest(className, methodName);
